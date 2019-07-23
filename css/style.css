@@ -289,14 +289,14 @@ article .entry h4,
 article .entry h5,
 article .entry h6,
 article .entry .video-container {
-  margin-top: 15px;
+  margin-top: -1px;
 }
 article .entry table {
   border-collapse: collapse;
   border-spacing: 0;
   empty-cells: show;
-  border: 0px solid #fff;
-  width: 750px;
+  border: 0px solid #eee;
+  width: 100px;
 }
 article .entry table th {
   white-space: nowrap;
@@ -306,13 +306,13 @@ article .entry table th {
 }
 article .entry table td,
 article .entry table th {
-  border: 0px solid #fff;
+  border: 0px solid #eee;
   padding: 0px 0px;
   text-align: left;
 }
 article .entry blockquote {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   font-style: italic;
   font-family: "Georgia", serif;
   font-size: 1.2em;
@@ -341,12 +341,12 @@ article .entry code {
   padding: 0 5px;
   margin: 0 2px;
   font-size: 0.9em;
-  border: 1px solid #fff;
+  border: 1px solid #eee;
   border-radius: 3px;
 }
 article .entry pre {
   background: #eee;
-  border: 1px solid #fff;
+  border: 1px solid #eee;
   margin-top: 15px;
   overflow: auto;
   padding: 7px 15px;
@@ -378,7 +378,7 @@ article .entry dl dl {
 article .entry h1,
 article .entry h2 {
   font-weight: normal;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #eee;
   padding-bottom: 10px;
   margin-top: 20px;
 }
@@ -442,7 +442,7 @@ article .entry .pullquote {
 article footer {
   margin-top: 15px;
   padding-top: 10px;
-  border-top: 1px solid #fff;
+  border-top: 0px solid #eee;
   color: #999;
   font-size: 0.9em;
   line-height: 16px;
@@ -508,7 +508,7 @@ article footer .addthis iframe {
 #pagination a {
   display: block;
   padding: 5px 10px;
-  background: #fff;
+  background: #eee;
   color: #999;
   font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-shadow: 0 0 1px #fff;
@@ -548,9 +548,9 @@ article footer .addthis iframe {
   content: '\f07b';
 }
 .archive {
-  -webkit-box-shadow: 1px 2px 3px #fff;
-  box-shadow: 1px 2px 3px #fff;
-  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: 1px 2px 3px #eee;
+  box-shadow: 1px 2px 3px #eee;
+  border-bottom: 1px solid #eee;
   margin-bottom: 50px;
 }
 .archive article {
@@ -580,7 +580,7 @@ article footer .addthis iframe {
 #sidebar .widget .title {
   padding: 15px 20px;
   font-size: 1em;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #eee;
   font-weight: normal;
 }
 #sidebar .widget .entry {
@@ -613,7 +613,7 @@ article footer .addthis iframe {
   font-style: italic;
   font-size: 1em;
   padding: 10px 15px;
-  border: 1px solid #fff;
+  border: 1px solid #eee;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -634,7 +634,7 @@ article footer .addthis iframe {
   content: ')';
 }
 #sidebar .twitter li {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #eee;
   padding: 15px 20px;
   font-size: 0.9em;
 }
@@ -662,7 +662,7 @@ article footer .addthis iframe {
 }
 .entry .gist {
   background: #eee;
-  border: 1px solid #fff;
+  border: 1px solid #eee;
   margin-top: 15px;
   padding: 7px 15px;
   border-radius: 2px;
@@ -701,7 +701,7 @@ article footer .addthis iframe {
 }
 figure.highlight {
   background: #eee;
-  border: 1px solid #fff;
+  border: 1px solid #eee;
   margin-top: 15px;
   padding: 7px 15px;
   border-radius: 2px;
@@ -732,7 +732,7 @@ figure.highlight table {
 figure.highlight .gutter {
   color: #999;
   padding-right: 15px;
-  border-right: 1px solid #fff;
+  border-right: 0px solid #eee;
   text-align: right;
 }
 figure.highlight .code {
