@@ -284,7 +284,43 @@
     background: #CE0000;
 	color: #FFFFFF;
 	font-size: 1.2em;
-    padding: 0.1em;
+	padding: 0.1em;
+}
+
+.type_b {
+	width: 6em;
+    text-align: center;
+    background: #007979;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	padding: 0.1em;
+}
+
+.type_c {
+	width: 6em;
+    text-align: center;
+    background: #EA7500;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	padding: 0.1em;
+}
+
+.type_d {
+	width: 6em;
+    text-align: center;
+    background: #0072E3;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	padding: 0.1em;
+}
+
+.type_e {
+	width: 6em;
+    text-align: center;
+    background: #660099;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	padding: 0.1em;
 }
 
 .staff {
