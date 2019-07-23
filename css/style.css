@@ -11,9 +11,9 @@
 }
 body {
   background: #eee;
-  color: #444;
+  color: #000;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   text-shadow: 0 0 1px transparent;
 }
 @media screen and (max-width: 1260px) {
@@ -162,7 +162,7 @@ article.link .title a:after {
   vertical-align: super;
 }
 article .post-content {
-  padding: 10px 10px 10px 77px;
+  padding: 0px 0px 0px 77px;
   margin-bottom: 50px;
   position: relative;
 }
@@ -181,8 +181,6 @@ article .gallery:hover .control {
   filter: none;
 }
 article .gallery img {
-  min-width: 100%;
-  max-width: 100%;
   height: auto;
   position: absolute;
   top: 0;
@@ -267,15 +265,11 @@ article header .title {
   font-weight: normal;
 }
 article header .title a {
-  color: #444;
+  color: #000;
 }
 article header .title a:hover {
   color: #258fb8;
   text-decoration: none;
-}
-article .entry {
-  text-align: justify;
-  line-height: 1.5;
 }
 article .entry p,
 article .entry blockquote,
@@ -289,26 +283,22 @@ article .entry h4,
 article .entry h5,
 article .entry h6,
 article .entry .video-container {
-  margin-top: -1px;
+  margin-top: 0px;
 }
 article .entry table {
   border-collapse: collapse;
   border-spacing: 0;
   empty-cells: show;
   border: 0px solid #eee;
-  width: 100px;
+  width: 32em;
+  td: , padding 5px;
 }
 article .entry table th {
   white-space: nowrap;
-  color: #444;
+  color: #000;
   font-weight: 600;
   background: #eee;
-}
-article .entry table td,
-article .entry table th {
-  border: 0px solid #eee;
-  padding: 0px 0px;
-  text-align: left;
+  padding: 5px;
 }
 article .entry blockquote {
   border-top: 1px solid #eee;
@@ -621,7 +611,7 @@ article footer .addthis iframe {
   color: #999;
 }
 #sidebar .search input:focus {
-  color: #444;
+  color: #000;
 }
 #sidebar .tag small {
   margin-left: 15px;
