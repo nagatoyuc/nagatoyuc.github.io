@@ -1689,7 +1689,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #96ff30;
+  background: #ff5798;
 }
 .feed-link,
 .chat {
@@ -2708,7 +2708,7 @@ ul.breadcrumb li+li:last-child {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .sub-menu+ #content > #posts .post-block {
-    margin-top: 0px;
+    margin-top: 10px;
   }
 }
 @media (max-width: 767px) {
@@ -2770,26 +2770,26 @@ ul.breadcrumb li+li:last-child {
     margin: initial;
   }
   .posts-expand .post-button {
-    margin-top: 0px;
+    margin-top: 20px;
   }
   .post-block {
-    padding: 0px;
+    padding: 20px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
     border-radius: initial;
   }
   #posts > article + article .post-block {
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .comments {
-    margin-top: 0px;
-    padding: 0px 0px;
+    margin-top: 10px;
+    padding: 10px 20px;
   }
   .pagination {
-    margin: 0px 0 0;
+    margin: 10px 0 0;
   }
 }
 .title_main {
-  background: #ffb6c1;
+  background: #333;
   height: 5em;
   line-height: 1.5em;
 }
@@ -2799,18 +2799,20 @@ ul.breadcrumb li+li:last-child {
   font-size: 2em;
   font-weight: bold;
   padding-left: 0.25em;
+  color: #f0f0f0;
 }
 .title_jp {
   padding: 0.2em;
   text-align: left;
   font-size: 1.1em;
   padding-left: 0.5em;
+  color: #e0e0e0;
 }
 .type_a {
   width: 100px;
   text-align: center;
   background: #ce0000;
-  color: #fff;
+  color: #f0f0f0;
   font-size: 1.2em;
   padding: 0.1em;
   line-height: 1.25em;
@@ -2819,7 +2821,7 @@ ul.breadcrumb li+li:last-child {
   width: 100px;
   text-align: center;
   background: #007979;
-  color: #fff;
+  color: #f0f0f0;
   font-size: 1.2em;
   padding: 0.1em;
   line-height: 1.25em;
@@ -2828,7 +2830,7 @@ ul.breadcrumb li+li:last-child {
   width: 100px;
   text-align: center;
   background: #ea7500;
-  color: #fff;
+  color: #f0f0f0;
   font-size: 1.2em;
   padding: 0.1em;
   line-height: 1.25em;
@@ -2837,7 +2839,7 @@ ul.breadcrumb li+li:last-child {
   width: 100px;
   text-align: center;
   background: #0072e3;
-  color: #fff;
+  color: #f0f0f0;
   font-size: 1.2em;
   padding: 0.1em;
   line-height: 1.25em;
@@ -2846,7 +2848,7 @@ ul.breadcrumb li+li:last-child {
   width: 100px;
   text-align: center;
   background: #609;
-  color: #fff;
+  color: #f0f0f0;
   font-size: 1.2em;
   padding: 0.1em;
   line-height: 1.25em;
@@ -2876,5 +2878,11 @@ ul.breadcrumb li+li:last-child {
 }
 .link_b {
   text-align: center;
-  line-height: 2em;
+  line-height: 1.5em;
+}
+.broadcast {
+  font-size: 0.8em;
+  background: #333;
+  color: #fff;
+  line-height: 1.5em;
 }
