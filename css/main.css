@@ -1689,7 +1689,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #70ffe4;
+  background: #d2f9a3;
 }
 .feed-link,
 .chat {
@@ -2842,44 +2842,49 @@ ul.breadcrumb li+li:last-child {
   padding-left: 0.5em;
 }
 .type_a {
-  width: 6em;
+  width: 100px;
   text-align: center;
   background: #ce0000;
   color: #fff;
   font-size: 1.2em;
   padding: 0.1em;
+  line-height: 1.25em;
 }
 .type_b {
-  width: 6em;
+  width: 100px;
   text-align: center;
   background: #007979;
   color: #fff;
   font-size: 1.2em;
   padding: 0.1em;
+  line-height: 1.25em;
 }
 .type_c {
-  width: 6em;
+  width: 100px;
   text-align: center;
   background: #ea7500;
   color: #fff;
   font-size: 1.2em;
   padding: 0.1em;
+  line-height: 1.25em;
 }
 .type_d {
-  width: 6em;
+  width: 100px;
   text-align: center;
   background: #0072e3;
   color: #fff;
   font-size: 1.2em;
   padding: 0.1em;
+  line-height: 1.25em;
 }
 .type_e {
-  width: 6em;
+  width: 100px;
   text-align: center;
   background: #609;
   color: #fff;
   font-size: 1.2em;
   padding: 0.1em;
+  line-height: 1.25em;
 }
 .staff {
   text-align: left;
@@ -2887,6 +2892,7 @@ ul.breadcrumb li+li:last-child {
   font-size: 1em;
   line-height: 1.25em;
   padding-left: 0.5em;
+  width: 230px;
 }
 .cast {
   text-align: left;
@@ -2894,6 +2900,7 @@ ul.breadcrumb li+li:last-child {
   font-size: 1em;
   line-height: 1.25em;
   padding-left: 0.5em;
+  width: 170px;
 }
 .link_a {
   text-align: center;
