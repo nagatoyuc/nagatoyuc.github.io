@@ -404,7 +404,6 @@ kbd {
   margin: 0px;
 }
 table {
-  width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   font-size: 14px;
@@ -1690,7 +1689,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7867bb;
+  background: #cd38b3;
 }
 .feed-link,
 .chat {
@@ -2885,16 +2884,16 @@ ul.breadcrumb li+li:last-child {
 .staff {
   text-align: left;
   vertical-align: top;
-  font-size: 1.16em;
-  line-height: 1.3em;
-  padding-left: 1.25em;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding-left: 0.5em;
 }
 .cast {
   text-align: left;
   vertical-align: top;
-  font-size: 1.16em;
-  line-height: 1.3em;
-  padding-left: 1.25em;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding-left: 0.5em;
 }
 .link_a {
   text-align: center;

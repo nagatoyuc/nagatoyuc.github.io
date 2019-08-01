@@ -67,7 +67,7 @@ $(document).ready(function() {
   initSidebarDimension();
 
   function wrapTable() {
-    $('table').not('.gist table').wrap('<div class="table-container"></div>');
+    $('table').not('.gist table').wrap('<div></div>');
   }
   wrapTable();
 
