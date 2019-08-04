@@ -1579,6 +1579,16 @@ pre .javascript .function {
 .fancybox-close:hover {
   border: none;
 }
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+}
+.post-copyright i.fa {
+  font-size: 15px;
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -1689,7 +1699,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #990a3d;
+  background: #1b99a8;
 }
 .feed-link,
 .chat {
@@ -2889,4 +2899,56 @@ ul.breadcrumb li+li:last-child {
 .intro {
   font-size: 1em;
   line-height: 1.5em;
+}
+.div_sp {
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+.sp_title_high {
+  color: #fff;
+  background: #333;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.1em;
+  line-height: 1.3em;
+  height: 4.5em;
+}
+.sp_title {
+  color: #fff;
+  background: #333;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.1em;
+  line-height: 1.3em;
+  height: 3em;
+}
+.sp_release {
+  color: #fff;
+  background: #ea7500;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.1em;
+}
+.type-m {
+  width: 60px;
+  text-align: center;
+  background: #0072e3;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.1em;
+}
+.type-o {
+  text-align: center;
+  background: #007979;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.1em;
+}
+.type-s {
+  text-align: center;
+  background: #609;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.1em;
 }
