@@ -1699,7 +1699,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f4f;
+  background: #59ffa2;
 }
 .feed-link,
 .chat {
@@ -2955,5 +2955,21 @@ ul.breadcrumb li+li:last-child {
   background: #609;
   color: #fff;
   font-size: 1em;
+  padding: 0.1em;
+}
+.movie_title {
+  color: #fff;
+  background: #333;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.1em;
+  line-height: 1.3em;
+  height: 3em;
+}
+.movie_release {
+  color: #fff;
+  background: #ea7500;
+  text-align: center;
+  font-size: 1.2em;
   padding: 0.1em;
 }
