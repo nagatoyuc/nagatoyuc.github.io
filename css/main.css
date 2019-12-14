@@ -1699,7 +1699,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #453b7e;
+  background: #6ff5ff;
 }
 .feed-link,
 .chat {
@@ -2900,6 +2900,12 @@ ul.breadcrumb li+li:last-child {
   background: #333;
   color: #fff;
   line-height: 2em;
+}
+.broadcast_ex {
+  font-size: 0.8em;
+  background: #c0c0c0;
+  color: #000;
+  line-height: 1.3em;
 }
 .intro {
   font-size: 1em;
