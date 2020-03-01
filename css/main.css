@@ -1699,7 +1699,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff856b;
+  background: #ff60ff;
 }
 .feed-link,
 .chat {
@@ -2803,7 +2803,7 @@ ul.breadcrumb li+li:last-child {
   height: 5em;
   line-height: 1.5em;
 }
-.title_main_higher {
+.title_main_br {
   background: #333;
   height: 7em;
   line-height: 2.2em;
@@ -2816,10 +2816,27 @@ ul.breadcrumb li+li:last-child {
   padding-left: 0.25em;
   color: #f0f0f0;
 }
+.title_cn_br {
+  padding: 0.2em;
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 0.25em;
+  color: #f0f0f0;
+}
 .title_jp {
   padding: 0.2em;
   text-align: left;
   font-size: 1.1em;
+  padding-left: 0.5em;
+  color: #e0e0e0;
+}
+.title_jp_br {
+  padding: 0.2em;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  padding-top: 0;
   padding-left: 0.5em;
   color: #e0e0e0;
 }
@@ -2987,4 +3004,13 @@ ul.breadcrumb li+li:last-child {
   background: #333;
   color: #fff;
   line-height: 2em;
+}
+.movie_box {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.1em;
+  background: #333;
+  color: #fff;
+  line-height: 1.6em;
 }
