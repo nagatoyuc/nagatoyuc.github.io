@@ -1699,7 +1699,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #aa47ff;
+  background: #a8e0ff;
 }
 .feed-link,
 .chat {
@@ -2845,7 +2845,7 @@ ul.breadcrumb li+li:last-child {
   text-align: center;
   background: #c0c0c0;
   color: #003;
-  font-size: 1em;
+  font-size: 0.9em;
   padding: 0.1em;
   line-height: 1.25em;
 }
@@ -2881,7 +2881,7 @@ ul.breadcrumb li+li:last-child {
   text-align: center;
   background: #007979;
   color: #f0f0f0;
-  font-size: 1.1em;
+  font-size: 1.05em;
   padding: 0.1em;
   line-height: 1.25em;
 }
@@ -2899,7 +2899,7 @@ ul.breadcrumb li+li:last-child {
   text-align: center;
   background: #ea7500;
   color: #f0f0f0;
-  font-size: 1.1em;
+  font-size: 1.05em;
   padding: 0.1em;
   line-height: 1.25em;
 }
@@ -2917,7 +2917,7 @@ ul.breadcrumb li+li:last-child {
   text-align: center;
   background: #0072e3;
   color: #f0f0f0;
-  font-size: 1.1em;
+  font-size: 1.05em;
   padding: 0.1em;
   line-height: 1.25em;
 }
@@ -2935,7 +2935,7 @@ ul.breadcrumb li+li:last-child {
   text-align: center;
   background: #609;
   color: #f0f0f0;
-  font-size: 1.1em;
+  font-size: 1.05em;
   padding: 0.1em;
   line-height: 1.25em;
 }
