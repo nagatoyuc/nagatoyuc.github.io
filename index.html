@@ -18,7 +18,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yuc.wiki","root":"/","scheme":"Gemini","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"yuc.wiki","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta property="og:type" content="website">
@@ -37,7 +37,8 @@
   CONFIG.page = {
     sidebar: "",
     isHome : true,
-    isPost : false
+    isPost : false,
+    lang   : 'zh-CN'
   };
 </script>
 
@@ -90,13 +91,11 @@
 
   <div class="site-meta">
 
-    <div>
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">YuC's AnimeList</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">YuC's AnimeList</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
   </div>
 
   <div class="site-nav-right">
@@ -106,8 +105,9 @@
 </div>
 
 
+
+
 <nav class="site-nav">
-  
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
@@ -120,8 +120,11 @@
 
   </li>
   </ul>
-
 </nav>
+
+
+
+
 </div>
     </header>
 
@@ -137,14 +140,12 @@
         <div class="content-wrap">
           
 
-          <div class="content">
+          <div class="content index posts-expand">
             
-
-  <div class="posts-expand">
-        
+      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yuc.wiki/202007/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -157,10 +158,10 @@
       <meta itemprop="name" content="YuC's AnimeList">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
+        <h2 class="post-title" itemprop="name headline">
           
             <a href="/202007/" class="post-title-link" itemprop="url">2020年7月新番表</a>
-        </h1>
+        </h2>
 
         <div class="post-meta">
               <span class="post-meta-item">
@@ -168,7 +169,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-06-20 16:51:28" itemprop="dateModified" datetime="2020-06-20T16:51:28+08:00">2020-06-20</time>
+                <time title="修改时间：2020-06-20 17:54:30" itemprop="dateModified" datetime="2020-06-20T17:54:30+08:00">2020-06-20</time>
               </span>
 
           
@@ -227,7 +228,7 @@
 　赛露莎：篠原侑<br>
 　嘉奈特：中山瑶子 等
 </td><td class="link_a">
-<a href="https://www.lapisrelights.com/anime/" target="_blank">动画官网</a><br><br>
+<a href="https://www.lapisrelights.com/anime/" target="_blank">动画官网</a><br>
 <a href="https://www.bilibili.com/BV1QK4y1C7FY" target="_blank">PV1</a>
 <a href="https://www.bilibili.com/BV1fV411d7G5" target="_blank">PV2</a>
 <p class="broadcast">7/4周六晚间</p>
@@ -334,7 +335,7 @@
 <tr><td class="type_tag">格斗/夸张/独特</td></tr>
 <tr><td rowspan="2" class="staff">
 原作：板垣恵介<br>
-(周刊少年Champion/秋田书店)<br><br>
+<font size="2em">(周刊少年Champion/秋田书店)</font><br><br>
 　　导演：平野俊贵<br>
 　　编剧：浦畑达彦<br>
 动画人设：铃木藤雄<br>
@@ -510,7 +511,7 @@
 动画人设：守冈英行<br>
 　副人设：小堺能夫<br>
 　　音乐：末广健一郎<br>
-动画制作：david production
+动画制作：david<br>　　　　　production
 </td><td rowspan="2" class="cast">
 森罗日下部：梶原岳人<br>
 亚瑟波义耳：小林裕介<br>
@@ -544,7 +545,7 @@
 　　编剧：广田光毅<br>
 　　音乐：HYADAIN<br>
 动画人设：平山宽菜<br>
-动画制作：TMS Entertainment
+动画制作：TMS<br>　　　　　Entertainment
 </td><td rowspan="2" class="cast">
 　水原千鹤：雨宫天<br>
 　七海麻美：悠木碧<br>
@@ -571,7 +572,7 @@
 <tr><td class="type_tag">校园/喜剧/大</td></tr>
 <tr><td rowspan="2" class="staff">
 原作：丈<br>
-(DragonComicsAge/KADOKAWA)<br><br>
+<font size="2em">(DragonComicsAge/角川)</font><br><br>
 　　导演：三浦和也<br>
 　　编剧：青岛崇<br>
 动画人设：栗原学<br>
@@ -609,8 +610,7 @@
 　　导演：宫岛星矢<br>
 动画人设：宫岛星矢<br>
 　　音乐：Cygames<br>
-动画制作：W-Toon Studio<br>
-　　　　　(DMM.futureworks)
+动画制作：W-Toon Studio<br>　　　(DMM.futureworks)
 </td><td rowspan="2" class="cast">
 　特别周：和气杏未<br>
 无声铃鹿：高野麻里佳<br>
@@ -727,7 +727,7 @@
 莱茵哈特：中村悠一 等
 </td><td class="link_a">
 <a href="http://re-zero-anime.jp/tv/" target="_blank">动画官网</a><br>
-<a href="https://www.bilibili.com/bangumi/media/md3461/" target="_blank">1期正片→</a>
+<a href="https://www.bilibili.com/bangumi/media/md3461/" target="_blank">1期正片→</a><br>
 <a href="https://www.bilibili.com/video/BV1EV411k7Qq" target="_blank">2期PV→</a>
 <p class="broadcast">7/8周三晚间</p>
 </td></tr><tr><td class="link_b">
@@ -737,7 +737,7 @@
 <!--#C07-->
 <div style="float:left"><img width="180px" src="https://i0.hdslb.com/bfs/album/8b7d846014ee828d6282af630ddca2ab93b8a35a.jpg" referrerpolicy="no-referrer"></div>
 <div><table width="500px"><tr><td class="title_main_br" colspan="2" rowspan="2">
-<p class="title_cn">刀剑神域 Alicization<br>War of Underworld 最终季</p>
+<p class="title_cn">刀剑神域 Alicization<br><font size="5em">War of Underworld 最终季</font></p>
 <p class="title_jp_br">ソードアート・オンライン アリシゼーション<br>War of Underworld -THE LAST SEASON-</p></td>
 <td class="type_c_">小说改编动画</td></tr>
 <tr><td class="type_tag">虚拟世界/动作</td></tr>
@@ -945,7 +945,6 @@
   
   
 
-  </div>
 
   
   <nav class="pagination">
@@ -959,7 +958,7 @@
 
 <script>
   window.addEventListener('tabs:register', () => {
-    let activeClass = CONFIG.comments.activeClass;
+    let { activeClass } = CONFIG.comments;
     if (CONFIG.comments.storage) {
       activeClass = localStorage.getItem('comments_active') || activeClass;
     }
@@ -1081,6 +1080,8 @@
       <div class="footer-inner">
         
 
+        
+
 <div class="copyright">
   
   &copy; 
@@ -1090,6 +1091,8 @@
   </span>
   <span class="author" itemprop="copyrightHolder">nagatoyuc</span>
 </div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
 
         
 <div class="busuanzi-count">
@@ -1165,7 +1168,7 @@
       quicklink({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri == 'http://yuc.wiki/',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'http://yuc.wiki/',]
       });
       });
   </script>
