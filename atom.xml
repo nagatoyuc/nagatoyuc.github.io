@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yuc.wiki/"/>
-  <updated>2020-06-26T18:18:50.818Z</updated>
+  <updated>2020-08-30T09:49:01.208Z</updated>
   <id>http://yuc.wiki/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020年10月新番表</title>
+    <link href="http://yuc.wiki/202010/"/>
+    <id>http://yuc.wiki/202010/</id>
+    <published>2020-08-06T16:00:00.000Z</published>
+    <updated>2020-08-30T09:49:01.208Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;link rel=&quot;alternate&quot; href=&quot;/atom.xml&quot; title=&quot;YuC&#39;s AnimeList&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="2020年10月新番动画" scheme="http://yuc.wiki/tags/2020%E5%B9%B410%E6%9C%88%E6%96%B0%E7%95%AA%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>2020年7月新番表</title>
