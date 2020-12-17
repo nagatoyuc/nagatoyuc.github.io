@@ -283,7 +283,6 @@ table {
   border-spacing: 0;
   font-size: 0.875em;
   margin: 0 0 0 0;
-  width: 520px;
 }
 tbody tr:nth-of-type(odd) {
   background: var(--table-row-odd-bg-color);
@@ -1172,7 +1171,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #77ff59;
+  background: #ffff1c;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
