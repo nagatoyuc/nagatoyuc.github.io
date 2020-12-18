@@ -1171,7 +1171,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e5f545;
+  background: #bf3c60;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2609,7 +2609,7 @@ ul.breadcrumb li + li:last-child {
   color: #e0e0e0;
 }
 .type_tag {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #c0c0c0;
   color: #003;
@@ -2618,7 +2618,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_tag_ {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #c0c0c0;
   color: #003;
@@ -2627,7 +2627,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_a {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #ce0000;
   color: #f0f0f0;
@@ -2636,7 +2636,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_a_ {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #ce0000;
   color: #f0f0f0;
@@ -2645,7 +2645,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_b {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #007979;
   color: #f0f0f0;
@@ -2654,7 +2654,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_b_ {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #007979;
   color: #f0f0f0;
@@ -2663,7 +2663,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_c {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #ea7500;
   color: #f0f0f0;
@@ -2672,7 +2672,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_c_ {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #ea7500;
   color: #f0f0f0;
@@ -2681,7 +2681,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_d {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #0072e3;
   color: #f0f0f0;
@@ -2690,7 +2690,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_d_ {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #0072e3;
   color: #f0f0f0;
@@ -2699,7 +2699,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_e {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #609;
   color: #f0f0f0;
@@ -2708,7 +2708,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_e_ {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #609;
   color: #f0f0f0;
@@ -2717,7 +2717,7 @@ ul.breadcrumb li + li:last-child {
   line-height: 1.25em;
 }
 .type_e__ {
-  width: 105px;
+  width: 108px;
   text-align: center;
   background: #609;
   color: #f0f0f0;
