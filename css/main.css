@@ -1171,7 +1171,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #deffb1;
+  background: #ffdeff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2584,10 +2584,26 @@ ul.breadcrumb li + li:last-child {
   padding-left: 0.25em;
   color: #f0f0f0;
 }
+.title_cn_ {
+  padding: 0.2em;
+  text-align: left;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-left: 0.25em;
+  color: #f0f0f0;
+}
+.title_cn__ {
+  padding: 0.2em;
+  text-align: left;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-left: 0.25em;
+  color: #f0f0f0;
+}
 .title_cn_br {
   padding: 0.2em;
   text-align: left;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
   padding-left: 0.25em;
   color: #f0f0f0;
@@ -2596,6 +2612,20 @@ ul.breadcrumb li + li:last-child {
   padding: 0.2em;
   text-align: left;
   font-size: 1.1em;
+  padding-left: 0.5em;
+  color: #e0e0e0;
+}
+.title_jp_ {
+  padding: 0.2em;
+  text-align: left;
+  font-size: 1em;
+  padding-left: 0.5em;
+  color: #e0e0e0;
+}
+.title_jp__ {
+  padding: 0.2em;
+  text-align: left;
+  font-size: 0.8em;
   padding-left: 0.5em;
   color: #e0e0e0;
 }
@@ -2626,6 +2656,15 @@ ul.breadcrumb li + li:last-child {
   padding: 0.1em;
   line-height: 1.25em;
 }
+.type_tag__ {
+  width: 108px;
+  text-align: center;
+  background: #c0c0c0;
+  color: #003;
+  font-size: 0.4em;
+  padding: 0.5em;
+  line-height: 1.25em;
+}
 .type_a {
   width: 108px;
   text-align: center;
@@ -2640,7 +2679,7 @@ ul.breadcrumb li + li:last-child {
   text-align: center;
   background: #ce0000;
   color: #f0f0f0;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 0.1em;
   line-height: 1.25em;
 }
@@ -2658,7 +2697,7 @@ ul.breadcrumb li + li:last-child {
   text-align: center;
   background: #007979;
   color: #f0f0f0;
-  font-size: 1.05em;
+  font-size: 1em;
   padding: 0.1em;
   line-height: 1.25em;
 }
@@ -2676,7 +2715,7 @@ ul.breadcrumb li + li:last-child {
   text-align: center;
   background: #ea7500;
   color: #f0f0f0;
-  font-size: 1.05em;
+  font-size: 1em;
   padding: 0.1em;
   line-height: 1.25em;
 }
@@ -2694,7 +2733,7 @@ ul.breadcrumb li + li:last-child {
   text-align: center;
   background: #0072e3;
   color: #f0f0f0;
-  font-size: 1.05em;
+  font-size: 1em;
   padding: 0.1em;
   line-height: 1.25em;
 }
@@ -2712,7 +2751,7 @@ ul.breadcrumb li + li:last-child {
   text-align: center;
   background: #609;
   color: #f0f0f0;
-  font-size: 1.05em;
+  font-size: 1em;
   padding: 0.1em;
   line-height: 1.25em;
 }
